@@ -1,0 +1,39 @@
+{
+  "name": "react-redux-reference",
+  "version": "0.1.0",
+  "description": "Simple hello world react redux app as a reference",
+  "main": "public/index.js",
+  "scripts": {
+    "test": "mocha app/**/*--test.js",
+    "precompile": "git clean -fdx public",
+    "compile": "webpack --config webpack/base.config",
+    "start": "npm -s compile && http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watsonarw/react-redux-reference.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "reference",
+    "webpack",
+    "es6"
+  ],
+  "author": "Andrew Watson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watsonarw/react-redux-reference/issues"
+  },
+  "homepage": "https://github.com/watsonarw/react-redux-reference#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "chai": "^3.5.0",
+    "enzyme": "^2.6.0",
+    "http-server": "^0.9.0",
+    "mocha": "^3.1.2",
+    "react": "^15.4.0",
+    "redux": "^3.6.0",
+    "webpack": "^1.13.3"
+  }
+}

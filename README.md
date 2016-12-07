@@ -1,3 +1,3 @@
-# react-redux-reference
+# react-reference
 
-Simple hello world react redux app as a reference
+Simple hello world react app as a reference
